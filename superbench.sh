@@ -145,16 +145,16 @@ benchinit() {
 	# install speedtest-cli
 	if  [ ! -e 'speedtest.py' ]; then
 		echo " Installing Speedtest-cli ..."
-		wget --no-check-certificate https://msoayu56.com/files/speedtest/speedtest.py > /dev/null 2>&1
+		wget --no-check-certificate https://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest.py > /dev/null 2>&1
 	fi
 	chmod a+rx speedtest.py
 	
 	# install speedtest-cli(original version)
 	if  [ ! -e 'speedtest_original.py' ]; then
 		echo " Installing speedtest-cli(original version) ..."
-		wget --no-check-certificate https://msoayu56.com/files/speedtest/speedtest_original.py > /dev/null 2>&1
+		wget --no-check-certificate https://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest_original.py > /dev/null 2>&1
 	fi
-	chmod a+rx speedtest.py
+	chmod a+rx speedtest_original.py
 
 
 	# install tools.py

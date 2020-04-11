@@ -1246,10 +1246,10 @@ class Speedtest(object):
                     )
 
         urls = [
-            '://msoayu56.com/files/speedtest/speedtest-servers-static.xml',
-            'http://msoayu56.com/files/speedtest/speedtest-servers-static.xml',
-            '://msoayu56.com/files/speedtest/speedtest-servers.xml',
-            'http://msoayu56.com/files/speedtest/speedtest-servers.xml',
+            '://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest-servers-static.xml',
+            'https://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest-servers-static.xml',
+            '://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest-servers.xml',
+            'https://raw.githubusercontent.com/msoayu56/speedtest/master/speedtest-servers.xml',
         ]
 
         headers = {}

@@ -611,7 +611,7 @@ print_intro() {
 	printf ' Superbench.sh -- https://www.oldking.net/350.html\n' | tee -a $log
 	printf " Mode  : \e${GREEN}%s\e${PLAIN}    Version : \e${GREEN}%s${PLAIN}\n" $mode_name 1.1.6 | tee -a $log
 	printf ' Usage : wget -qO- git.io/superbench.sh | bash\n' | tee -a $log
-	printf ' Fixed bugs version usage : wget -qO- msoayu56.com/files/speedtest/superbench.sh | bash\n' | tee -a $log
+	printf ' Fixed bugs version usage : wget -qO- https://git.io/Jvh0J | bash\n' | tee -a $log
 	printf ' Fixed version 3\n' | tee -a $log
 }
 
